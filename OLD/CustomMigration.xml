@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration url="http://www.microsoft.com/migration/1.0/migmix/default">
+  <component type="Documents" context="User">
+    <displayName>Respaldo de carpetas personalizadas</displayName>
+    <role role="Data">
+      <rules>
+        <include>
+          <objectSet>
+            <pattern type="File">%CSIDL_DESKTOP%\* [*]</pattern>
+            <pattern type="File">%CSIDL_PERSONAL%\* [*]</pattern>
+            <pattern type="File">%CSIDL_DOWNLOADS%\* [*]</pattern>
+            <pattern type="File">%CSIDL_MYPICTURES%\* [*]</pattern>
+            <pattern type="File">%CSIDL_FAVORITES%\* [*]</pattern>
+          </objectSet>
+        </include>
+      </rules>
+    </role>
+  </component>
+</migration>

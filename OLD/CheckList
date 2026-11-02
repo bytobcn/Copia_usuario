@@ -1,0 +1,10 @@
+[ ] 1. Preparar portátil nuevo con Windows 11 e IP fija temporal.
+[ ] 2. Instalar Google Chrome y Google Drive para Escritorio.
+[ ] 3. Comprobar que Google Drive para Escritorio está sincronizado en el equipo antiguo.
+[ ] 4. Exportar certificados digitales (.pfx) desde certmgr.msc.
+[ ] 5. Anotar la IP fija, Máscara, Gateway, DNS y MAC del equipo antiguo.
+[ ] 6. Desconectar el equipo antiguo y asignar la IP fija al equipo nuevo.
+[ ] 7. Iniciar sesión en Google Chrome y activar la sincronización con la cuenta corporativa.
+[ ] 8. Iniciar sesión en Google Drive para Escritorio en el nuevo equipo.
+[ ] 9. Importar el certificado digital (.pfx).
+[ ] 10. Probar conectividad e impresoras con el usuario.
